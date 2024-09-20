@@ -2,7 +2,7 @@
 
 <br>
 
-## 🖥️ Codigos utilizados no GIT
+## 🖥️ Comandos utilizados no GIT
 
 ### Clone de Repositórios:
 
