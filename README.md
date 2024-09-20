@@ -58,8 +58,41 @@ git status
 
 git log
 
+// Visualiza todos os commits realizados e mostra os hashcodes que são as identificações de cada commit mais detalhado.
+
+git reflog
+
 ```
 
-### 
+### Recuperando alterações realizadas
+
+🚨 **Obs.:** Muito cuidado ao utilizar esse comando pois ele descarta todas as alterações realizadas localmente 
+
+```
+git restore nome_do_arquivo
+```
+
+### Corrigindo commit realizado localmente
+
+🚨 **Obs.:** Muito cuidado ao utilizar esse comando, sempre faça a revisão das alterações antes de usar esses comandos e atenção para o hashcode dos comites. 
+
+```
+**Esse comando altera o ultimo commit realizado localmente**
+
+git commit --amend -m'Mensagem que será subistituida'
+
+** Pega os arquivos que estavam nos commits posteriores e os adiciona a área de preparação**
+
+git reset --soft hash_do_commit 
+
+**Pega os arquivos que estavam nos commits posteriores e os adiciona a área de preparação como untracked.**
+git reset --mixed hash_do_commit  // pode ser usado git reset
+
+
+**Remove todas as modificações realizadas**
+git reset --hard hash_do_commit 
+
+```
+
 
 ## 📖 Documentação
