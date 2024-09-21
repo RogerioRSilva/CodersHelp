@@ -1,4 +1,4 @@
-# Estudo Git e GitHub
+# Principais Conceitos e Comandos
 
 <br>
 
@@ -92,6 +92,20 @@ git reset --mixed hash_do_commit  // pode ser usado git reset
 **Remove todas as modificações realizadas**
 git reset --hard hash_do_commit 
 
+```
+
+### Criando uma ramificação de branch
+
+🚨 **Obs.:** Deve estar usando a branch que deseja criar a ramificação
+
+```
+** Cria uma nova branch a partir da branch atual **
+
+git checkout -b nome_da_branch
+
+
+** Muda de branch **
+git checkout nome_da_branch
 ```
 
 
