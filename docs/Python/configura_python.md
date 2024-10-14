@@ -47,22 +47,33 @@ python3 --version
 Agora que o Python está instalado, escolha uma IDE (Integrated Development Environment) ou um editor de texto para escrever seu código. Algumas opções populares são:
 
 1. Visual Studio Code (VSCode): Um editor leve e poderoso com suporte a Python.
+- [Download VSCode](https://code.visualstudio.com/download) 
+- [Configurando o VSCode para utilizar Python - Video](https://www.youtube.com/watch?v=BSjdcLzgfIw&ab_channel=DevAprender%7CJhonatandeSouza)
+
 2. PyCharm: Uma IDE completa para desenvolvimento Python.
 IDLE: O próprio IDLE que vem com o Python.
+- [Download PyCharm](https://www.jetbrains.com/pycharm/download/?section=windows)
+- [Configurando o pycharm - Video](https://www.youtube.com/watch?v=i-5nYErMVsk&ab_channel=HashtagPrograma%C3%A7%C3%A3o)
 
 ## Configuração do Ambiente Virtual (Opcional, mas recomendado)
 Para isolar projetos e suas dependências, é uma boa prática criar ambientes virtuais. Use o venv (ou virtualenv) para isso:
 
-Navegue até a pasta do seu projeto no terminal.
-Crie um novo ambiente virtual:
+1. Navegue até a pasta do seu projeto no terminal.
+2. Crie um novo ambiente virtual:
+~~~~
 python -m venv nome_do_ambiente
+~~~~
+3. Ative o ambiente virtual:
 
-Ative o ambiente virtual:
-No Windows:
+**No Windows:**
+~~~~
 nome_do_ambiente\Scripts\activate
+~~~~
 
-No macOS/Linux:
+**No macOS/Linux:**
+~~~~
 source nome_do_ambiente/bin/activate
+~~~~
 
 ## Comece a Programar!
 Agora você está pronto para escrever seu primeiro código Python. Abra sua IDE ou editor de texto, crie um novo arquivo .py e comece a explorar o mundo da programação!
