@@ -15,3 +15,8 @@ Aqui vamos documentar, criar tutoriais e disponibilizar códigos/comandos que no
 - [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](docs/Python/configura_python.md)
 
 - [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](docs/github/docs_git.md)
+
+
+### Lógica de Programação
+
+- [![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](docs/Java/logica_programacao_java.md)

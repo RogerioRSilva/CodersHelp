@@ -1,7 +1,9 @@
-# Lógica de programação em JAVA
+# 🖥️ Lógica de programação em JAVA
+
+↩️ [Retornar para guia](/README.md)
 
 
-## Tipos de Dados
+## 🎲 Tipos de Dados
 
 - **byte:** Um inteiro de 8 bits. Intervalo: -128 a 127.
 
@@ -40,61 +42,64 @@
 
 ~~~
 
-- **Tipo String:**
-    - **Características:**
-        - Imutável: Uma vez criada, a string não pode ser alterada. Qualquer operação que pareça modificar uma string, na verdade, cria uma nova string.
+<br>
 
-        - Classe Final: String é uma classe final, o que significa que não pode ser estendida (herdada).
+### 📄 Tipo String:
 
-        - Conveniente: A classe String oferece muitos métodos convenientes para manipular cadeias de caracteres, como substring(), toUpperCase(), toLowerCase(), trim(), entre outros.
+- **Características:**
+    - Imutável: Uma vez criada, a string não pode ser alterada. Qualquer operação que pareça modificar uma string, na verdade, cria uma nova string.
 
-        ### Exemplo de código
+    - Classe Final: String é uma classe final, o que significa que não pode ser estendida (herdada).
 
-        ~~~java
-            String s1 = "Olá Mundo";
-            String s2 = new String("Olá Mundo");
-        ~~~
+    - Conveniente: A classe String oferece muitos métodos convenientes para manipular cadeias de caracteres, como substring(), toUpperCase(), toLowerCase(), trim(), entre outros.
 
-        - **Pool de Strings:**
-        O Java mantém um pool de strings para otimizar o uso de memória. Quando você cria uma string literal, ela é armazenada no pool e reutilizada se uma string com o mesmo valor for criada novamente.
-    
-    - **Principais Métodos:**
-        - **charAt(int index):** Retorna o caractere no índice especificado.
+    ### Exemplo de código
 
-        - **length():** Retorna o comprimento da string.
+    ~~~java
+        String s1 = "Olá Mundo";
+        String s2 = new String("Olá Mundo");
+    ~~~
 
-        - **substring(int beginIndex, int endIndex):** Retorna uma substring da string original.
+    - **Pool de Strings:**
+    O Java mantém um pool de strings para otimizar o uso de memória. Quando você cria uma string literal, ela é armazenada no pool e reutilizada se uma string com o mesmo valor for criada novamente.
 
-        - **equals(Object anObject):** Compara duas strings para igualdade.
+- **Principais Métodos:**
+    - **charAt(int index):** Retorna o caractere no índice especificado.
 
-        - **compareTo(String anotherString):** Compara duas strings lexicograficamente.
+    - **length():** Retorna o comprimento da string.
 
-        - **concat(String str):** Concatena duas strings
+    - **substring(int beginIndex, int endIndex):** Retorna uma substring da string original.
 
-        ### Exemplo de código
+    - **equals(Object anObject):** Compara duas strings para igualdade.
 
-        ~~~java    
-            String texto = "Olá Mundo";
+    - **compareTo(String anotherString):** Compara duas strings lexicograficamente.
 
-            // Imprimir comprimento
-            System.out.println("Comprimento: " + texto.length());
+    - **concat(String str):** Concatena duas strings
 
-            // Imprimir caractere no índice 1
-            System.out.println("Caractere no índice 1: " + texto.charAt(1));
+    ### Exemplo de código
 
-            // Imprimir substring
-            System.out.println("Substring (0, 4): " + texto.substring(0, 4));
+    ~~~java    
+        String texto = "Olá Mundo";
 
-            // Converter para maiúsculas
-            System.out.println("Maiúsculas: " + texto.toUpperCase());
+        // Imprimir comprimento
+        System.out.println("Comprimento: " + texto.length());
 
-            // Comparar strings
-            System.out.println("Comparação: " + texto.equals("Olá Mundo"));
-        ~~~
+        // Imprimir caractere no índice 1
+        System.out.println("Caractere no índice 1: " + texto.charAt(1));
+
+        // Imprimir substring
+        System.out.println("Substring (0, 4): " + texto.substring(0, 4));
+
+        // Converter para maiúsculas
+        System.out.println("Maiúsculas: " + texto.toUpperCase());
+
+        // Comparar strings
+        System.out.println("Comparação: " + texto.equals("Olá Mundo"));
+    ~~~
 
 <br>
 
-## Operadores Aritméticos:
+## 🧮 Operadores Aritméticos:
 
 - **Adição ( + ):** Soma dois valores.
 ~~~java
@@ -124,7 +129,7 @@ int f = 10 % 2; // f = 0
 
 <br>
 
-## Operadores Lógicos
+## ✅ Operadores Lógicos
 
 - **E lógico ( && ):** Retorna true se ambas as expressões forem verdadeiras.
 ~~~java
@@ -158,7 +163,7 @@ int f = 10 % 2; // f = 0
 
 <br>
 
-## Estruturas Condicionais
+## 🔎 Estruturas Condicionais
 
 - **if-else:** Permite executar diferentes blocos de código com base em uma condição.
 ~~~~java
@@ -202,7 +207,7 @@ int f = 10 % 2; // f = 0
 
 <br>
 
-## Estuturas de Repetição (Loops)
+## 🎡 Estuturas de Repetição (Loops)
 
 - **for:** Repete um bloco de código um número específico de vezes.
 ~~~~java
@@ -227,7 +232,7 @@ int f = 10 % 2; // f = 0
 
 <br>
 
-## Estruturas de Controle de Fluxo
+## 🚦 Estruturas de Controle de Fluxo
 
 - **break:** Interrompe um loop ou switch.
 ~~~~java
@@ -257,7 +262,7 @@ int f = 10 % 2; // f = 0
 
 <br>
 
-## Vetores
+## 🎞️ Vetores
 
 - **Array Unidimensional:** Um vetor simples que contém elementos de um único tipo.
 ~~~~java
