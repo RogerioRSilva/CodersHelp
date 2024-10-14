@@ -1,5 +1,7 @@
 # 	![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) Configurando o Ambiente de Desenvolvimento Python
 
+↩️ [Retornar para guia](/README.md)
+
 ## Instalação do Python
 Primeiro, vamos instalar o Python em seu computador. A seguir, detalho os passos para diferentes sistemas operacionais:
 
