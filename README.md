@@ -6,6 +6,8 @@ Aqui vamos documentar, criar tutoriais e disponibilizar códigos/comandos que no
 
 ## 📚 Guia de Suporte
 
+<br>
+
 ### 🚀 Configurações, instalações e Comandos:
 
 - [![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](docs/Dart_Flutter/configuracao_ambiente_dart.md)
@@ -16,7 +18,10 @@ Aqui vamos documentar, criar tutoriais e disponibilizar códigos/comandos que no
 
 - [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](docs/github/docs_git.md)
 
+<br>
 
-### Lógica de Programação
+### 🕵️ Lógica de Programação
 
 - [![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](docs/Java/logica_programacao_java.md)
+
+- [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](docs/Python/logica_programacao_python.md)
