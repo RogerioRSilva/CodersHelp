@@ -35,5 +35,5 @@ O objetivo deste repositório é servir como um meio de consulta para iniciantes
 - [TDD](/docs/conceitos/tdd.md) - "Test-Driven Development"
 
 - [SOLID](/docs/conceitos/solid.md)
-=======
+
 
