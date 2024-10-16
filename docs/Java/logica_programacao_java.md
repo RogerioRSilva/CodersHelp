@@ -102,64 +102,108 @@
 ## 🧮 Operadores Aritméticos:
 
 - **Adição ( + ):** Soma dois valores.
-~~~java
-    int a = 5 + 3;  // a = 8
-~~~
+    ~~~java
+        int a = 5 + 3;  // a = 8
+    ~~~
 
 - **Subtração ( - ):** Subtrai um valor de outro.
-~~~java
-    int b = 5 - 3;  // b = 2
-~~~
+    ~~~java
+        int b = 5 - 3;  // b = 2
+    ~~~
 
 - **Multiplicação ( * ):** Multiplica dois valores.
-~~~java
-    int c = 5 * 3;  // c = 15
-~~~
+    ~~~java
+        int c = 5 * 3;  // c = 15
+    ~~~
 
 - **Divisão (/):** Divide um valor por outro.
-~~~java
-    int d = 9 / 3;  // d = 3
-~~~
+    ~~~java
+        int d = 9 / 3;  // d = 3
+    ~~~
 
 - **Módulo (%):** Retorna o resto da divisão entre dois valores.
-~~~java
-int e = 9 % 4;  // e = 1
-int f = 10 % 2; // f = 0
-~~~
+    ~~~java
+    int e = 9 % 4;  // e = 1
+    int f = 10 % 2; // f = 0
+    ~~~
 
 <br>
 
 ## ✅ Operadores Lógicos
 
 - **E lógico ( && ):** Retorna true se ambas as expressões forem verdadeiras.
-~~~java
-    boolean a = true && false;  // a = false
-~~~
+    ~~~java
+        boolean a = true && false;  // a = false
+    ~~~
 
 - **OU lógico ( || ):** Retorna true se pelo menos uma das expressões for verdadeira.
-~~~java
-    boolean b = true || false;  // b = true
-~~~
+    ~~~java
+        boolean b = true || false;  // b = true
+    ~~~
 
 - **NÃO lógico ( ! ) : **Inverte o valor lógico de uma expressão.
-~~~~java
-    boolean c = !true;  // c = false
-~~~~
+    ~~~~java
+        boolean c = !true;  // c = false
+    ~~~~
 
 - **E lógico bit a bit ( & ):** Retorna true se ambas as expressões forem verdadeiras, mas verifica ambas as condições, mesmo que a primeira seja false.
-~~~~java
-    boolean d = true & false;  // d = false
-~~~~
+    ~~~~java
+        boolean d = true & false;  // d = false
+    ~~~~
 
 - **OU lógico bit a bit ( | ):** Retorna true se pelo menos uma das expressões for verdadeira, mas verifica ambas as condições.
-~~~~java
-    boolean e = true | false;  // e = true
-~~~~
+    ~~~~java
+        boolean e = true | false;  // e = true
+    ~~~~
 
 - **OU exclusivo lógico bit a bit ( ^ ):** Retorna true se uma e apenas uma das expressões for verdadeira.
-~~~~java
-    boolean f = true ^ false;  // f = true
-~~~~
+    ~~~~java
+        boolean f = true ^ false;  // f = true
+    ~~~~
+
+### Operadores de comparação
+
+1. Igualdade ( == ).
+    ~~~~java
+        int a = 5;
+        int b = 5;
+        boolean resultado = (a == b);  // true
+    ~~~~
+
+2. Diferença ( != ).
+    ~~~~java
+        int a = 5;
+        int b = 3;
+        boolean resultado = (a != b);  // true
+    ~~~~
+
+3. Maior que ( \> ).
+    ~~~~java
+        int a = 5;
+        int b = 3;
+        boolean resultado = (a > b);  // true
+    ~~~~
+
+4. Menor que ( \< ).
+    ~~~~java
+        int a = 3;
+        int b = 5;
+        boolean resultado = (a < b);  // true
+    ~~~~
+
+5. Maior ou igual a ( >= ).
+    ~~~~java
+        int a = 5;
+        int b = 5;
+        boolean resultado = (a >= b);  // true
+    ~~~~
+
+6. Menor ou igual a ( <= ).
+    ~~~~java
+        int a = 3;
+        int b = 5;
+        boolean resultado = (a <= b);  // true
+    ~~~~
 
 <br>
 
