@@ -1,7 +1,6 @@
 # 🎯Conceitos e Tutoriais para DEVs
 
-O Objetivo desse repositório é se tornar um meio para consultas para iniciantes em desenvolvimento de software. 
-Aqui vamos documentar, criar tutoriais e disponibilizar códigos/comandos que nos ajudam no nosso dia-a-dia de desenvolvimento. 
+O objetivo deste repositório é servir como um meio de consulta para iniciantes em desenvolvimento de software. Aqui, vamos documentar, criar tutoriais e disponibilizar códigos/comandos que nos ajudam no nosso dia a dia de desenvolvimento. 
 
 
 ## 📚 Guia de Suporte
