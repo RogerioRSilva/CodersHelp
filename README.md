@@ -25,3 +25,14 @@ Aqui vamos documentar, criar tutoriais e disponibilizar códigos/comandos que no
 - [![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](docs/Java/logica_programacao_java.md)
 
 - [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](docs/Python/logica_programacao_python.md)
+
+
+### 📖 Conceitos: 
+
+- [KISS](/docs/conceitos/kiss.md) - "Keep It Simple, Stupid"
+
+- [BDD](/docs/conceitos/bdd.md) - "Behavior-Driven Development"
+
+- [TDD](/docs/conceitos/tdd.md) - "Test-Driven Development"
+
+- [SOLID](/docs/conceitos/solid.md)
